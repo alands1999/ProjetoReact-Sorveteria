@@ -1,0 +1,72 @@
+.banner-sobre {
+    height: 90vh;
+    background-image: url('../../../public/Assets/banner-sobre.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.banner-sobre h1 {
+    font-size: 120px;
+    color: white;
+    text-shadow: 3px 4px 5px rgba(0, 0, 0, 0.836);
+
+}
+.container-sobre {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    margin: 60px auto;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.titulos-sobre h1 {
+    font-size: 38px ;
+}
+.titulos-sobre h4 {
+    font-size: 18px ;
+    font-style: italic ;
+}
+
+.container-img-sobre {
+    display: flex; 
+}
+.container-img-sobre img {
+    width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    .banner-sobre h1 {
+        font-size: 80px;
+    } 
+    .container-sobre {
+        justify-content: center;
+        gap: 20px;
+        margin: 40px;
+    }
+    .container-img-sobre {
+        flex-direction: column; 
+    }
+    .container-img-sobre img {
+        width: 100%;
+    }
+    .container-sobre {
+        height: 50vh;
+    }
+    
+}
+
+@media screen and (max-width:  436px) {
+    .banner-sobre h1 {
+        font-size: 60px;
+    } 
+    .container-sobre {
+        margin: 60px 20px;
+    }
+    .container-sobre p {
+        font-size: 15px;
+    }
+}

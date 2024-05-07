@@ -1,0 +1,96 @@
+.banner {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../../public/Assets/banner-home.png");
+    background-color: rgb(214, 214, 38);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 100px;
+}
+.banner h1 {
+    font-size: 60px;
+    color: white;
+    text-shadow: 3px 3px 4px black;
+}
+
+.sabores, .eventos, .sobre {
+    display: flex;
+    min-height: 60vh;
+}
+.container-imagem {
+    width: 50%;
+}
+.container-imagem img {
+    width: 100%;
+    height: 100%;
+}
+
+.container-texto {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.textos {
+    width: 60%;
+}
+.textos p {
+    font-size: 20px;
+    text-align: justify;
+}
+.titulos {
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.titulos h2 {
+    font-size: 30px;
+}
+.titulos span {
+    font-size: 20px;
+    font-style: italic;
+}
+
+@media screen and (max-width: 768px) {
+    .sabores, .sobre {
+        display: flex;
+        flex-direction: column;
+    }
+    .eventos {
+        flex-direction: column-reverse;
+    }
+    .container-imagem {
+        width: 100%;
+    }
+    .container-texto {
+        width: 100%;
+        padding: 100px 0px;
+    }
+    .textos p {
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width: 436px) {
+    .banner h1 {
+       text-align: center;
+    }
+    .textos p {
+        text-align: center;
+    }
+    .titulos {
+        padding-bottom: 40px;
+    }
+    .titulos h2 {
+        font-size: 29px;
+    }
+    .titulos span {
+        font-size: 18px;
+    }
+}

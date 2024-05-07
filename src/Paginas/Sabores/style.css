@@ -1,0 +1,85 @@
+.banner-sabores {
+    background-image: url('../../../public/Assets/banner-sabores.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.banner-sabores h1 {
+    color: white;
+    font-size: 70px;
+    text-shadow: 3px 4px 5px rgba(0, 0, 0, 0.836);
+}
+.container-sabores {
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0px;
+    align-items: center;
+}
+.container-sabores h1 {
+    font-size: 30px;
+}
+.box-imagens-sorvete {
+    display: flex;
+    padding-top: 40px;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card-sorvete {
+    box-shadow: 2px 2px 11px 1px rgba(128, 128, 128, 0.658);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 20px;
+    text-align: center;
+    
+}
+.card-sorvete img {
+    width: 100%;
+}
+.card-sorvete h2 {
+    font-size: 19px;
+}
+
+@media screen and (max-width: 768px) {
+    .card-sorvete {
+        width: 550px;
+        height: 400px;
+        gap: 0px;
+    }
+    .card-sorvete img {
+        width: 280px;
+        height: 250px;
+    }
+    .card-sorvete h2 {
+        font-size: 22px;
+    }
+    .card-sorvete p {
+        font-size: 18px;
+    }
+
+
+}
+
+@media screen and (max-width: 436px) {
+    .banner-sabores h1 {
+        text-align: center;
+    }
+    .card-sorvete {
+        width: 400px;
+        height: 400px;
+        gap: 0px;
+        padding: 20px;
+    }
+    .card-sorvete img {
+        width: 280px;
+        height: 270px;
+    }
+}
