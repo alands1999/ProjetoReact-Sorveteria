@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# Projeto Sorveteria
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto é uma Single Page Application (SPA) desenvolvida utilizando React. A aplicação consiste em uma sorveteria virtual com três páginas principais: Home, Sabores e Sobre, todas construídas com uma semântica adequada.
 
-## Available Scripts
+## Funcionalidades:
 
-In the project directory, you can run:
+- Home: Página inicial da sorveteria, apresentando um banner central com informações atraentes.
+- Sabores: Página que lista os diversos sabores de sorvete disponíveis na sorveteria.
+- Sobre: Página que fornece informações sobre a sorveteria, sua história e missão.
 
-### `npm start`
+## Componentes Reutilizáveis:
+O projeto utiliza dois componentes que são compartilhados entre as páginas:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Topo: Componente de cabeçalho que inclui links de navegação para as páginas Home, Sabores e Sobre.
+- Rodapé: Componente de rodapé que pode conter informações adicionais, como detalhes de contato ou links para redes sociais.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Responsividade:
+O layout do projeto é responsivo e se adapta a diferentes tamanhos de tela, graças ao uso de media queries. Isso garante uma experiência consistente para os usuários em dispositivos móveis e desktop.
 
-### `npm test`
+## Requisitos para Execução:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Para executar o projeto localmente, é necessário ter o Node.js instalado. Siga os passos abaixo:
 
-### `npm run build`
+- Clone este repositório em sua máquina.
+- No diretório do projeto, execute o comando npm install para instalar as dependências.
+- Após a instalação das dependências, execute npm start para iniciar a aplicação.
+- Acesse a aplicação no seu navegador através do endereço fornecido pelo servidor local.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Projeto: 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![1](https://github.com/alands1999/ProjetoReact-Sorveteria/assets/150439841/2a742f5e-6e93-4d0c-a03c-548767d9dbdb)
+![2](https://github.com/alands1999/ProjetoReact-Sorveteria/assets/150439841/a53fd09c-f5e6-4a5c-9c6a-92527668aab8)
+![3](https://github.com/alands1999/ProjetoReact-Sorveteria/assets/150439841/c991ce1a-1924-4be9-ba05-a6dce219fafc)
+![4](https://github.com/alands1999/ProjetoReact-Sorveteria/assets/150439841/d00d2d82-186a-49b9-bd13-b8a247ba8a77)
+![5](https://github.com/alands1999/ProjetoReact-Sorveteria/assets/150439841/01391ac5-e032-477a-a7b0-4fd8747d44a6)
+![6](https://github.com/alands1999/ProjetoReact-Sorveteria/assets/150439841/5e2482ae-4005-44a3-83fa-af73665e65db)
+![7](https://github.com/alands1999/ProjetoReact-Sorveteria/assets/150439841/61c60e1f-b0ae-4259-bdb9-a21ad39cac11)
+![8](https://github.com/alands1999/ProjetoReact-Sorveteria/assets/150439841/75c16e75-b356-4c7d-87f7-0df881fcbbc2)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
